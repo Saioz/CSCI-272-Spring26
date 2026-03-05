@@ -25,16 +25,27 @@ person1.introduce();
     
 }
 
-// Reflection
 /*
+Reflection : 
 
-What you understood from this example
-• Any difficulties you faced
-• What you searched or researched online (if anything)
-• Whether you used AI (if yes, explain how)
-• What you learned from completing this code
+1. What I understood : 
+I understand how if else loops work within the Person.h class. 
+That changes outside the file, in the main file can also reflect onto the Person.h
+like when you change the genders from m to f or m to f you're able to use 
+the if else loop to change what prints out.
 
-THIS IS FOR REFLECTION DELETE AFTERWARDS
+2. Difficulties:
+Initially, I did not understand why my code was not running, and then I realized that I needed to 
+end classes with a semicolon, otherwise it would not compile.
+3. Research:
+I had to search online what made a big difference in running with void or without. It's kind of similar 
+but void makes it so that there's no need for a return value. Then you could call it multiple times without doing anything convoluted. 
+
+4. AI Usage: 
+I used chatGPT to ask questions and help me find reliable sources and pages for research.
+
+5.What I learned: 
+I learned what void does, how to use constructors (Although I didn't actually leave it in my final version, I played around and learned about overloading and how to default and create parameters for a constructor)
 
 */
 
