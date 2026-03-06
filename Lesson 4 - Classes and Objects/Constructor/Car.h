@@ -12,21 +12,22 @@ class Car {
             cout << "this object was destroyed :(" << endl;
         }
         Car() {
-            
+            //default
         }
         Car(string b, string m, int y) {
             b = brand;
             m = model;
             y = year;
-            
+        //parametized constructor
             
         }
         Car(const Car& other) {
+            //copy
             
             brand = other.brand;
             model = other.model;
             year = other.year;
-            
+        
             
             
         }
