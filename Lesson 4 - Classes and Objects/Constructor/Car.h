@@ -8,7 +8,7 @@ class Car {
         int year = 2048;
     public:
         ~Car () {
-
+        //this is a destructor**
             cout << "this object was destroyed :(" << endl;
         }
         Car() {
