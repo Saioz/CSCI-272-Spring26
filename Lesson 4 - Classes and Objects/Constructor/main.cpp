@@ -68,10 +68,12 @@ made it not run.
 I did not use AI in this lesson
 5.What I learned: 
 I learned a lot, that you can't have cout<< when you're using it within the function to print itself. and that parameter-less constructors exist and work.
-They just return the default values or hold the default values of the object.
+They just return the default values or hold the default values of the object. Also learned about default constructors/parameterized constructors, copy constructors (they use &) and constructor overloading
+being able to have a default, a constructor with only make and model and no year, and a constructor with only a brand.
  
 
 
 */
+
 
 }
