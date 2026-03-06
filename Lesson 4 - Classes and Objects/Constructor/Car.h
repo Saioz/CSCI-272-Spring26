@@ -7,6 +7,10 @@ class Car {
         string model = "fancy_model";
         int year = 2048;
     public:
+        ~Car () {
+
+            cout << "this object was destroyed :(" << endl;
+        }
         Car() {
             
         }
